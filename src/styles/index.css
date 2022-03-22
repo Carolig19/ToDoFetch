@@ -1,12 +1,22 @@
+.container {
+    width:300px;
+    height:400px;
+    background-color:lavender;
+    margin:auto;
+    display:inline-block;
+}
 
-/* 
+.titulo {
+    background-color:aquamarine;
+    text-align: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.delete {
+    background-color: rgba(128, 128, 128, 0.711);
+    width: 22px;
+    height: 22px;
+    align-items:flex-end;
+    text-align:center;
+    color:aliceblue;
+    margin: auto;
+}
